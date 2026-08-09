@@ -1,0 +1,66 @@
+@keyframes deltaruneBattleThing {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -422px 422px;
+    }
+}
+
+@font-face {
+    font-family: "konsola";
+    src: url("../assets/RobotoCondensed-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+    font-family: "konsola", sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(../assets/green-black-grid.png);
+    background-repeat: repeat;
+    background-position: 0 0;
+    animation: deltaruneBattleThing 20s linear infinite;
+ }
+
+main {
+    background-color: #02cf1d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+    padding: 25px;
+    margin: 25px 0;
+    max-width: 900px;
+    width: 95%;
+    color: #014209;
+}
+
+button {
+  display: inline-block;
+  padding: 0.6em 1.2em;
+  border: none;
+  border-radius: 8px;
+  background: rgb(24, 204, 0);
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 100, 200, 0.3);
+}
+
+.emo { /* tehe emo... what am i doing bro */
+    width: 1.2em;
+    height: 1.2em;
+    vertical-align: -0.2em;
+}
+
+.card {
+    background-color: #149614;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 15px 0;
+    width: 100%;
+    max-width: 500px;
+}
+
