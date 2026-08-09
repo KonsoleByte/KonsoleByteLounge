@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: "konsola";
-    src: url("../assets/RobotoCondensed-VariableFont_wght.ttf") format("truetype");
+    src: url("../assets/DeterminationMonoWebRegular-Z5oq.ttf") format("truetype");
 }
 
 body {
@@ -17,14 +17,14 @@ body {
     height: 100%;
     display: flex;
     justify-content: center;
-    background-image: url(../assets/green-black-grid.png);
+    background-image: url(../assets/purple-black-grid.png);
     background-repeat: repeat;
     background-position: 0 0;
     animation: deltaruneBattleThing 20s linear infinite;
  }
 
 main {
-    background-color: #02cf1d;
+    background-color: #000000;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,15 +34,15 @@ main {
     margin: 25px 0;
     max-width: 900px;
     width: 95%;
-    color: #014209;
+    color: #ffffff;
 }
 
 button {
   display: inline-block;
   padding: 0.6em 1.2em;
-  border: none;
+  border: rgb(255,255,255);
   border-radius: 8px;
-  background: rgb(24, 204, 0);
+  background: rgb(240, 158, 5);
   color: #fff;
   font: inherit;
   cursor: pointer;
@@ -56,7 +56,9 @@ button {
 }
 
 .card {
-    background-color: #149614;
+    background-color: #4e504e;
+    border-color: #ffffff;
+    border-width: 5px;
     border-radius: 12px;
     padding: 20px;
     margin: 15px 0;
