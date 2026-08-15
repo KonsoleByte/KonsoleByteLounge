@@ -28,6 +28,11 @@ body {
     -webkit-user-drag: none;
 }
 
+.nodecor {
+    text-decoration: none;
+    color: #014209;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
 }

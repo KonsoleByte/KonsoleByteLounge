@@ -49,6 +49,15 @@ button {
   box-shadow: 0 4px 12px rgba(0, 100, 200, 0.3);
 }
 
+dialog {
+    border: none;
+    border-radius: 12px;
+    padding: 2rem;
+    max-width: 400px;
+    background-color: #05b91a;
+    color: #014209;
+}
+
 .emo { /* tehe emo... what am i doing bro */
     width: 1.2em;
     height: 1.2em;
@@ -62,6 +71,11 @@ button {
     margin: 15px 0;
     width: 100%;
     max-width: 500px;
+}
+
+.nodecor {
+    text-decoration: none;
+    color: #014209;
 }
 
 ::-webkit-scrollbar {

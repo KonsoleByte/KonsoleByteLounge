@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: "konsola";
-    src: url("../assets/DeterminationMonoWebRegular-Z5oq.ttf") format("truetype");
+    src: url("../assets/RobotoCondensed-VariableFont_wght.ttf") format("truetype");
 }
 
 body {
@@ -17,14 +17,14 @@ body {
     height: 100%;
     display: flex;
     justify-content: center;
-    background-image: url(../assets/purple-black-grid.png);
+    background-image: url(../assets/blue-black-grid.png);
     background-repeat: repeat;
     background-position: 0 0;
     animation: deltaruneBattleThing 20s linear infinite;
  }
 
 main {
-    background-color: #000000;
+    background-color: #026fcf;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,19 +34,32 @@ main {
     margin: 25px 0;
     max-width: 900px;
     width: 95%;
-    color: #ffffff;
+    color: #014209;
 }
 
 button {
   display: inline-block;
   padding: 0.6em 1.2em;
-  border: rgb(255,255,255);
+  border: none;
   border-radius: 8px;
-  background: rgb(240, 158, 5);
+  background: rgb(0, 78, 204);
   color: #fff;
   font: inherit;
   cursor: pointer;
   box-shadow: 0 4px 12px rgba(0, 100, 200, 0.3);
+}
+
+dialog {
+    border: none;
+    border-radius: 12px;
+    padding: 2rem;
+    max-width: 400px;
+    background-color: #057ab9;
+    color: #011c42;
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .emo { /* tehe emo... what am i doing bro */
@@ -56,9 +69,7 @@ button {
 }
 
 .card {
-    background-color: #4e504e;
-    border-color: #ffffff;
-    border-width: 5px;
+    background-color: #145596;
     border-radius: 12px;
     padding: 20px;
     margin: 15px 0;
@@ -68,7 +79,7 @@ button {
 
 .nodecor {
     text-decoration: none;
-    color: #ffffff;
+    color: #011e42;
 }
 
 ::-webkit-scrollbar {
@@ -76,10 +87,10 @@ button {
 }
 
 ::-webkit-scrollbar-track {
-    background: #1c2d1e;
+    background: #1c242d;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #416644;
+    background: #414f66;
     border-radius: 10px;
 }
