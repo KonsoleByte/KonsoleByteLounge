@@ -27,3 +27,16 @@ body {
     -webkit-user-select: none;
     -webkit-user-drag: none;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1c2d1e;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #416644;
+    border-radius: 10px;
+}
